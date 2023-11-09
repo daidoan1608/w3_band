@@ -10,6 +10,13 @@
 
 /* Mobile */
 @media (max-width: 740px ){
+    .s-full-width,
+    .s-col-full{
+        width: 100% !important;
+    }
+    .s-mt-8{
+        margin-top: 8px !important;
+    }
     #nav{
         display: block;
     }
@@ -38,5 +45,21 @@
     }
     #header .mobile-menu-btn{
         display: block;
+    }
+    #content .members-img {
+        width: 80%;
+    }
+    #content .members-list{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .contact-form{
+        margin-top: 16px;
+    }
+    .text-content{
+        display: none;
+    }
+    .modal-container{
+        margin: 0px 10px;
     }
 }
